@@ -7,11 +7,11 @@
   </head>
   <body>
     <h1>Latihan Percobaan</h1>
-    <img src="/foto.png" alt="ini foto diri saya" />
+    <img src="foto.png" alt="ini foto diri saya" />
     <h1>It's Me G. Bintang Andromeda</h1>
     <ul>
-      <li><a href="https://www.itera.ac.id/">kampus saya</a></li>
-      <li><a href="https://www.itera.ac.id/teknik-informatika/">prodi saya</a></li>
+      <li><a href="https://www.itera.ac.id/" target="_blank">kampus saya</a></li>
+      <li><a href="https://www.itera.ac.id/teknik-informatika/" target="_blank">prodi saya</a></li>
     </ul>
     <h2>Tentang saya</h2>
     <p>Saya mahasiswa teknik informatika angkatan 2021, saat ini saya sedang mengambil mata kuliah pemrograman web, semoga yang sedang mengambil matkul ini dilancarkan belajarnya</p>
@@ -19,36 +19,44 @@
     <video src="" controls></video>
     <h2>Pengalaman kerja</h2>
     <table border="2">
-      <thead>
+      <thead align="center">
         <tr>
-          <th>No</th>
-          <th>Posisi</th>
-          <th>Waktu</th>
+          <td rowspan="2"><b>no</b></td>
+          <td rowspan="2"><b>nama</b></td>
+          <td rowspan="2"><b>tempat lahir</b></td>
+          <td colspan="2"><b>waktu kuliah</b></td>
+          <tr>
+            <td><b>mulai</b></td>
+            <td><b>selesai</b></td>
+          </tr>
         </tr>
       </thead>
-      <tbody>
+      <tbody align="center">
         <tr>
           <td>1</td>
-          <td>-</td>
-          <td>-</td>
+          <td>G. Bintang Andromeda</td>
+          <td>Sukoharo</td>
+          <td>2021</td>
+          <td>2025</td>
         </tr>
       </tbody>
     </table>
     <h2>hubungi saya</h2>
     
-    <div style="display: flex;">
-        <p>email: </p>
-        <input type="email" name="text-input">
-    </div>
+    <form action="">
+      <label for="email-pengguna">email : </label>
+      <input type="email" id="email-pengguna" placeholder="emailanda90@gmail.com">
 
-    <br>
-
-    <p>Apakah matahari di ITERA ada dua</p>
-    <input type="radio" name="radio" value="asefs">ingyah
-    <br>
-    <input type="radio" name="cvx" value="asefs">enggak
-    <br>
-    <br>
-    <input type="submit">
+      <p>Kuliah di ITERA?</p>
+      <input type="radio" name="question1" value="1">iya<br>
+      <input type="radio" name="question2" value="0">iya<br>
+      
+      <br>
+      <h3>Cita-cita setelah lulus?</h3>
+      <input type="checkbox">Software Enginer <br>
+      <input type="checkbox">Web Developer <br>
+      <input type="checkbox">Cyber Security <br>
+      <input type="checkbox">Apa saja yang penting halal <br>
+    </form>
     </body>
 </html>
