@@ -1,0 +1,90 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+.upper-header {
+  background-color: #18122b;
+  display: flex;
+  color: white;
+}
+
+.gambar {
+  border-radius: 50%;
+}
+
+.down-header {
+  background-color: #635985;
+  display: flex;
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.down-header a {
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+
+.down-header button a {
+  color: black;
+}
+
+body {
+  background-color: rgb(214, 212, 212);
+}
+
+.about {
+  margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.about video {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.pengalaman-kerja{
+  margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+table{
+  width: 100%;
+}
+
+.table-first-column{
+  background-color: #635985;
+}
+
+.kontak{
+  margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.button-kirim{
+  background-color: aquamarine;
+}
+
+footer{
+  background-color: #18122b;
+  padding: 20px 0 20px 0;
+}
+
+footer p{
+  color: white;
+  align-content: center;
+  margin-left: 50%;
+}
