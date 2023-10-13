@@ -1,0 +1,32 @@
+*, html, body{
+    margin:0;
+    padding: 0;
+}
+
+.header {
+    background-color: #cc1;
+    color: white;
+}
+
+.navigasi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    padding: 20px;
+    display: flex;
+}
+
+.menu li{
+    list-style: none;
+    padding: 0 10px;
+}
+
+.navigasi button{
+    background-color: #cc1;
+    color: white;
+    margin: 20px;
+    border-radius: 20%;
+}
+
