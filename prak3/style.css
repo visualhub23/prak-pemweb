@@ -3,30 +3,71 @@
     padding: 0;
 }
 
-.header {
-    background-color: #cc1;
-    color: white;
-}
-
-.navigasi{
+.navbar{
     display: flex;
-    justify-content: space-between;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
 }
 
-.menu{
-    padding: 20px;
+.navbar a{
+    text-decoration: none;
+}
+
+.navbar-navigasi{
+    margin: 0 20em;
+}
+
+.about{
+margin: 5em 0 5em 5em;
+  background-color: white;
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid #6b6b6b;
+  display: flex;
+}
+
+.about-button{
+    background-color: aqua;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.about img{
+    height: 100px;
+    display: flex;
+    margin-right: 1.5em;
+}
+
+.pengalaman{
+    margin: 5em 0 5em 5em;
+    width: 90%;
+    border-radius: 10px;
+    border: 2px solid #6b6b6b;
+}
+
+.pengalaman table{
+    border-collapse: separate;
+    border-spacing: 10px;
+    margin: 5em 0 5em 5em;
+    width: 90%;
+}
+
+.project{
     display: flex;
 }
 
-.menu li{
-    list-style: none;
-    padding: 0 10px;
+.project-h2{
+    margin-left: 3.5em;
 }
 
-.navigasi button{
-    background-color: #cc1;
-    color: white;
-    margin: 20px;
-    border-radius: 20%;
+.card{
+    background-color: aqua;
+    margin: auto;
+    padding: 3em;
 }
+
+
 
