@@ -1,0 +1,40 @@
+<!-- G.Bintang Andromeda 121140041 RC -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let kondisi = true;
+
+      while (kondisi) {
+        let pilihan = prompt("Pilih operasi yang diinginkan :\n1. Penjumlahan\n2. Pengurangan\n3. Perkalian\n4. Pembagian\n5. Modulus\n0. Keluar");
+
+        if (pilihan === "0") {
+          console.log("Log Out!");
+          kondisi = false;
+        }else if (pilihan >= 1 && pilihan <= 5) {
+          let a = parseFloat(prompt("Masukkan nilai a:"));
+          let b = parseFloat(prompt("Masukkan nilai b:"));
+            if (parseInt(pilihan) == 1) {
+                  console.log("Hasil = ", a + b);
+            }else if(parseInt(pilihan) == 2){
+                  console.log("Hasil = ", a - b);
+            }else if(parseInt(pilihan) == 3){
+                  console.log("Hasil = ", a * b);
+            }else if(parseInt(pilihan) == 4){
+                  console.log("Hasil = ", a / b);
+            }else if(pilihan == 5){
+                  console.log("Hasil = ", a % b);
+            }
+
+        }else{
+            console.log("opsi tidak tersedia, tolong pilih sesuai pilihan yang tersedia");
+        } 
+      }
+    </script>
+  </body>
+</html>
